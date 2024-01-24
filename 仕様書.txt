@@ -1,5 +1,5 @@
 ### 作者
-新谷拓海
+新谷 拓海
 
 ### 該当プロジェクトのリポジトリ URL(github)
 https://github.com/kerota38/restaurant_app
