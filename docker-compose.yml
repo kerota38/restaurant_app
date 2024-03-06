@@ -23,19 +23,7 @@ services:
     volumes:
       - ./public:/var/www/html
 
-  db:
-    image: mysql:8.0
-    # restart: always
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ROOT_PASSWORD: password123456
-      MYSQL_DATABASE: db1
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password123456
-    # ports:
-    #   - ${DB_PORT:-3306}:3306
-    volumes:
-      - db-data:/var/lib/mysql
+  
 
   myadmin:
     image: phpmyadmin/phpmyadmin:5.1.1

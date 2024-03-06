@@ -19,7 +19,7 @@ $start=1+($page_id-1)*10;
 
 // ホットペッパーグルメAPIから情報取得
 $query = [
-    'key' => '133821fe48ada023',
+    'key' =>'***', //APIキー
     'lat' => $lat, // 緯度
     'lng' => $lng, // 経度
     'range' => $range, // 検索範囲
